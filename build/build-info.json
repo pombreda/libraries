@@ -1,0 +1,259 @@
+{
+  "version" : "1.0.1",
+  "name" : "libraries",
+  "number" : "1410967629825",
+  "type" : "GRADLE",
+  "buildAgent" : {
+    "name" : "Gradle",
+    "version" : "1.10"
+  },
+  "agent" : {
+    "name" : "Gradle",
+    "version" : "1.10"
+  },
+  "started" : "2014-09-17T11:26:55.363-0400",
+  "durationMillis" : 202535,
+  "principal" : "carlos",
+  "artifactoryPrincipal" : "admin",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "buildRetention" : {
+    "count" : -1,
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "modules" : [ {
+    "id" : "com.motirolabs:clusterkraf:1.0.2",
+    "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "94f8452b38d5c4ebf164e5ed4e754f91ae6da68a",
+      "md5" : "3435db045e1b0384f450a23187bba26e",
+      "name" : "clusterkraf-1.0.2.pom"
+    }, {
+      "type" : "aar",
+      "sha1" : "1d856f0d3aca01803c094939e6e9de2973ed1da9",
+      "md5" : "36fa376277a17a2beba312e229da3776",
+      "name" : "clusterkraf-1.0.2.aar"
+    }, {
+      "type" : "sources-jar",
+      "sha1" : "ce06ad03bf460e4ca64dc3b189bc7da25027cc37",
+      "md5" : "3301bd7a374d58e4eee389fb9225fa5d",
+      "name" : "clusterkraf-1.0.2-sources.jar"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    }, {
+      "type" : "aar",
+      "sha1" : "600e5c8b50ef8b2deb74a43ef5ab46a2422e33c7",
+      "md5" : "8643ed97f6b9a7f4f811340c0ca47816",
+      "id" : "com.google.android.gms:play-services:4.4.52",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "e9b63380f3a242dbdbf103a2355ad7e43bad17cb",
+      "md5" : "1ee7c24e16eaca1f6278abc7dc104e1b",
+      "id" : "com.nineoldandroids:library:2.4.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  }, {
+    "id" : "com.motirolabs:dragsortlistview:0.5.0",
+    "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "1647f57c7c93f08a0451d957cac13f6107e69ef8",
+      "md5" : "dd7f997487bab3346724a0743e3e6098",
+      "name" : "dragsortlistview-0.5.0.pom"
+    }, {
+      "type" : "aar",
+      "sha1" : "44ebeb4a7d4af6b5ce5c2685beaa9d9019095ceb",
+      "md5" : "4a1e18a028e1426e59a8de2713f6ffcc",
+      "name" : "dragsortlistview-0.5.0.aar"
+    }, {
+      "type" : "sources-jar",
+      "sha1" : "49d135b55c888c67a4010ac4be1666e0d72e2be7",
+      "md5" : "fd78a6a239455b1156e34d868509a179",
+      "name" : "dragsortlistview-0.5.0-sources.jar"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  }, {
+    "id" : "com.motirolabs:gestureimageview:1.0",
+    "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "2c8dddac938cfb1407c674b09e3fb9aa7a8097e4",
+      "md5" : "68bb31ccffb325f3c89bedfcd3ffbf29",
+      "name" : "gestureimageview-1.0.pom"
+    }, {
+      "type" : "sources-jar",
+      "sha1" : "803201b0325e785c271e1b5c12b7ead3fef4b214",
+      "md5" : "d417faa21c742444d68a2607b293fdcc",
+      "name" : "gestureimageview-1.0-sources.jar"
+    }, {
+      "type" : "aar",
+      "sha1" : "94379c8371257ebccc472950fff9b551e87398cc",
+      "md5" : "a9e94be00427de4ae1d0dbd29cf6403e",
+      "name" : "gestureimageview-1.0.aar"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  }, {
+    "id" : "com.motirolabs:gridlayout:1.0.0",
+    "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "3c2115f98b185383ff34b71198a7a77fa9a133c8",
+      "md5" : "3042b3249de9779754848d523b43f0e3",
+      "name" : "gridlayout-1.0.0.pom"
+    }, {
+      "type" : "aar",
+      "sha1" : "abc7f2566a6f4d8db5c8487d4e0ee7cf1b7274da",
+      "md5" : "6df5d2a19abe0d3becb32aa251d1efe5",
+      "name" : "gridlayout-1.0.0.aar"
+    }, {
+      "type" : "sources-jar",
+      "sha1" : "95cb3a26de764df9736e8291bc21a45a5bb0ab31",
+      "md5" : "c7157528c690080cc3ddff2beef2992e",
+      "name" : "gridlayout-1.0.0-sources.jar"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  }, {
+    "id" : "com.motirolabs:pagerslidingtabstrip:1.0.0",
+    "artifacts" : [ {
+      "type" : "sources-jar",
+      "sha1" : "bca9cedb850ba95da6e6d70347c0efd10994bde4",
+      "md5" : "3542cd2af5c4cfe2349ebc68be620a13",
+      "name" : "pagerslidingtabstrip-1.0.0-sources.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "1d2910caf6584a740a13ec9f829fee72a4ffb92d",
+      "md5" : "9a58c7ad1d2ce808bf229e665810eb92",
+      "name" : "pagerslidingtabstrip-1.0.0.pom"
+    }, {
+      "type" : "aar",
+      "sha1" : "d22a680d9231a182a7f740eef6b6d97f4677e2db",
+      "md5" : "2125f16e16cdd575c54e2809dc7cd108",
+      "name" : "pagerslidingtabstrip-1.0.0.aar"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  }, {
+    "id" : "com.motirolabs:showcaseview:1.0",
+    "artifacts" : [ {
+      "type" : "sources-jar",
+      "sha1" : "d7173436dbe88c72e48a25be289e73a2914451b3",
+      "md5" : "01b32237d130c4b475cc81383d6fb85f",
+      "name" : "showcaseview-1.0-sources.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "5ae13fa299d28e9ce94925dc74dc4207ac16f4c4",
+      "md5" : "7db478ab9b403a74fb106fb320722bcd",
+      "name" : "showcaseview-1.0.pom"
+    }, {
+      "type" : "aar",
+      "sha1" : "86c363c6cb2eca7042d729e0d6b654f403386bd8",
+      "md5" : "c498edaed890b0d8b5f143d7e921c6f2",
+      "name" : "showcaseview-1.0.aar"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  }, {
+    "id" : "com.motirolabs:slidinguppanel:1.0.0",
+    "artifacts" : [ {
+      "type" : "sources-jar",
+      "sha1" : "b818bbbd4bffb22a1503ed4b76d138fa3a57d87e",
+      "md5" : "3b8b7278489ada7bee0423cd93fb418e",
+      "name" : "slidinguppanel-1.0.0-sources.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "ad6decc755d4efcf3c00ef43ab21aa311f05314c",
+      "md5" : "5c317ad99aac28fccd23dfb41f722a9b",
+      "name" : "slidinguppanel-1.0.0.pom"
+    }, {
+      "type" : "aar",
+      "sha1" : "81ed871ea49adcbf67adb0a51f85be1902dc2649",
+      "md5" : "57551afa60a8b5052578adebc3399c60",
+      "name" : "slidinguppanel-1.0.0.aar"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  }, {
+    "id" : "com.motirolabs:viewpagerindicator:2.4.1",
+    "artifacts" : [ {
+      "type" : "aar",
+      "sha1" : "4751f995e87628bbaa1d86c6e4e64448a2483d21",
+      "md5" : "2058dda9dfa0db1a3e922260aaf8d1a8",
+      "name" : "viewpagerindicator-2.4.1.aar"
+    }, {
+      "type" : "sources-jar",
+      "sha1" : "b1426b1746f7bdb6a0e1ab48dd3ddaa232f36cec",
+      "md5" : "175fd8ee73ff8e88e597df15fbace246",
+      "name" : "viewpagerindicator-2.4.1-sources.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "62a876883e26804a8a75e711069f940f8b6a8a2b",
+      "md5" : "79e070df43b27489450135e4ae31b11a",
+      "name" : "viewpagerindicator-2.4.1.pom"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "85f201b380937e61a9dce6ca90ccf6872abbfb67",
+      "md5" : "ee7f16e4d324ed49e770ed8839c0879b",
+      "id" : "com.android.support:support-v4:19.1.0",
+      "scopes" : [ "_debugCompile", "_debugPublish", "_debugTestCompile", "_debugTestPublish", "_releaseCompile", "_releasePublish" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}

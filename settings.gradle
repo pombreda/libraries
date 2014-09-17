@@ -1,0 +1,8 @@
+include ':src:clusterkraf'
+include ':src:dragsortlistview'
+include ':src:gestureimageview'
+include ':src:gridlayout'
+include ':src:pagerslidingtabstrip'
+include ':src:showcaseview'
+include ':src:slidinguppanel'
+include ':src:viewpagerindicator'
